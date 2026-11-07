@@ -1,0 +1,35 @@
+Found 39 test(s).
+System check identified no issues (0 silenced).
+Creating test database for alias 'default'...
+
+WARNING 2026-11-06 21:13:20,341 django.request: Unauthorized: /api/auth/login/
+..WARNING 2026-11-06 21:13:21,955 django.request: Unauthorized: /api/auth/refresh/
+.WARNING 2026-11-06 21:13:22,750 django.request: Bad Request: /api/auth/logout/
+.WARNING 2026-11-06 21:13:23,148 django.request: Unauthorized: /api/auth/me/
+..WARNING 2026-11-06 21:13:24,385 django.request: Bad Request: /api/auth/register/
+.WARNING 2026-11-06 21:13:24,790 django.request: Bad Request: /api/auth/register/
+.WARNING 2026-11-06 21:13:25,203 django.request: Bad Request: /api/auth/register/
+.WARNING 2026-11-06 21:13:25,591 django.request: Bad Request: /api/auth/register/
+..WARNING 2026-11-06 21:13:27,558 django.request: Bad Request: /api/beverages/
+.WARNING 2026-11-06 21:13:28,742 django.request: Bad Request: /api/beverages/
+.WARNING 2026-11-06 21:13:29,527 django.request: Unauthorized: /api/beverages/
+....WARNING 2026-11-06 21:13:33,430 django.request: Not Found: /api/beverages/2/
+..WARNING 2026-11-06 21:13:35,766 django.request: Bad Request: /api/beverages/
+..WARNING 2026-11-06 21:13:38,129 django.request: Bad Request: /api/beverages/
+.WARNING 2026-11-06 21:13:39,303 django.request: Bad Request: /api/beverages/
+...WARNING 2026-11-06 21:13:42,796 django.request: Bad Request: /api/beverages/
+.WARNING 2026-11-06 21:13:43,999 django.request: Bad Request: /api/beverages/
+.WARNING 2026-11-06 21:13:45,159 django.request: Not Found: /api/beverages/2/
+..WARNING 2026-11-06 21:13:47,502 django.request: Not Found: /api/beverages/2/
+...WARNING 2026-11-06 21:13:49,883 apps.catalog.external: Fallo consultando TheCocktailDB: JSON inválido
+ERROR 2026-11-06 21:13:49,883 django.request: Bad Gateway: /api/external/cocktails/
+..WARNING 2026-11-06 21:13:49,888 django.request: Not Found: /api/external/cocktails/random/
+.WARNING 2026-11-06 21:13:49,890 django.request: Bad Request: /api/external/cocktails/
+...WARNING 2026-11-06 21:13:49,896 apps.catalog.external: Fallo consultando TheCocktailDB: timeout
+ERROR 2026-11-06 21:13:49,897 django.request: Bad Gateway: /api/external/cocktails/
+.
+----------------------------------------------------------------------
+Ran 39 tests in 30.403s
+
+OK
+Destroying test database for alias 'default'...

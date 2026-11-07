@@ -1,0 +1,13 @@
+> bebidahub-frontend@1.0.0 build
+> vite build
+
+vite v6.4.5 building for production...
+transforming...
+✓ 1667 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.05 kB │ gzip:   0.55 kB
+dist/assets/index-DUumnmOT.css   51.19 kB │ gzip:  10.72 kB
+dist/assets/index-BZjG9reC.js   395.21 kB │ gzip: 124.57 kB
+✓ built in 3.46s
+
